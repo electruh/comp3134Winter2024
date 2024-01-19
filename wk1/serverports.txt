@@ -1,0 +1,21 @@
+1) What is the definition of server port?
+Server port is a number that is used to identify a server. The server port is used to identify the server that is used to communicate with the client. The server port is used to identify the server that is used to communicate with the client.
+
+2) What is server port range?
+The port range is a set of ports that are used for communication between the server and the client. The port range is defined by the server administrator. The port range is used to define the range of ports that are used for communication between the server and the client.
+
+3) How many bits does number above represent?
+The number above represents 16 bits.
+
+4) State 10 common server ports
+The following are the 10 most common server ports:
+1) Port 80
+2) Port 443
+3) Port 21
+4) Port 22
+5) Port 25
+6) Port 110
+7) Port 143
+8) Port 53
+9) Port 3306
+10) Port 8080
