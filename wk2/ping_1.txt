@@ -1,0 +1,41 @@
+root@comp3134-Winter2024:~# ping georgebrown.ca
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=50 time=9.55 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=50 time=8.11 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=50 time=8.15 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=50 time=8.27 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=50 time=8.17 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=50 time=23.8 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=50 time=8.66 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=8 ttl=50 time=8.11 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=9 ttl=50 time=8.16 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=10 ttl=50 time=8.66 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=11 ttl=50 time=8.12 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=12 ttl=50 time=15.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=13 ttl=50 time=8.21 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=14 ttl=50 time=10.4 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=15 ttl=50 time=8.22 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=16 ttl=50 time=15.7 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=17 ttl=50 time=8.15 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=18 ttl=50 time=33.7 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=19 ttl=50 time=8.21 ms
+^C
+--- georgebrown.ca ping statistics ---
+19 packets transmitted, 19 received, 0% packet loss, time 18032ms
+rtt min/avg/max/mdev = 8.111/11.349/33.657/6.557 ms
+
+root@comp3134-Winter2024:~# ping georgebrown.ca -w 10
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=50 time=10.8 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=50 time=8.15 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=50 time=13.6 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=50 time=8.13 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=50 time=8.15 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=50 time=8.13 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=50 time=8.11 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=8 ttl=50 time=8.50 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=9 ttl=50 time=8.13 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=10 ttl=50 time=8.14 ms
+
+--- georgebrown.ca ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, ti

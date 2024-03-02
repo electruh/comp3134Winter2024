@@ -1,0 +1,21 @@
+➜  ~ ping 143.198.33.235
+PING 143.198.33.235 (143.198.33.235): 56 data bytes
+64 bytes from 143.198.33.235: icmp_seq=0 ttl=54 time=6.347 ms
+64 bytes from 143.198.33.235: icmp_seq=1 ttl=54 time=5.419 ms
+64 bytes from 143.198.33.235: icmp_seq=2 ttl=54 time=4.966 ms
+64 bytes from 143.198.33.235: icmp_seq=3 ttl=54 time=5.597 ms
+64 bytes from 143.198.33.235: icmp_seq=4 ttl=54 time=5.698 ms
+64 bytes from 143.198.33.235: icmp_seq=5 ttl=54 time=5.580 ms
+^C
+--- 143.198.33.235 ping statistics ---
+6 packets transmitted, 6 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.966/5.601/6.347/0.409 ms
+➜  ~ ping -t 3 143.198.33.235
+PING 143.198.33.235 (143.198.33.235): 56 data bytes
+64 bytes from 143.198.33.235: icmp_seq=0 ttl=54 time=31.211 ms
+64 bytes from 143.198.33.235: icmp_seq=1 ttl=54 time=13.964 ms
+64 bytes from 143.198.33.235: icmp_seq=2 ttl=54 time=11.119 ms
+
+--- 143.198.33.235 ping statistics ---
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 11.119/18.765/31.211/8.877 ms

@@ -1,0 +1,6 @@
+Using NSlookup.io
+1. 	TikTok.com      108.138.246.33  United States of America
+2.  pinterest.com   151.101.192.8	United States of America
+3.  linkedin.com    13.107.42.14	United States of America
+4.  aritzia.com     18.244.214.78	United States of America
+5.  apple.com       17.253.144.10	United States of America
