@@ -1,0 +1,232 @@
+root@comp3134-Winter2024:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+02:12:19.352729 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1909221476:1909221584, ack 3369870726, win 501, options [nop,nop,TS val 2951799785 ecr 1725818161], length 108
+02:12:19.352879 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 2951799785 ecr 1725818161], length 156
+02:12:19.352970 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 264:368, ack 1, win 501, options [nop,nop,TS val 2951799785 ecr 1725818161], length 104
+02:12:19.355270 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 0, win 19151, options [nop,nop,TS val 1725818322 ecr 2951799778], length 0
+02:12:19.356583 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 368, win 19146, options [nop,nop,TS val 1725818325 ecr 2951799785], length 0
+02:12:19.454388 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [S], seq 716348827, win 64240, options [mss 1460,sackOK,TS val 3773063108 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+02:12:19.456574 IP 67.207.67.2.domain > comp3134-Winter2024.38322: Flags [S.], seq 1725348119, ack 716348828, win 65160, options [mss 1460,sackOK,TS val 1773474666 ecr 3773063108,nop,wscale 9], length 0
+02:12:19.456610 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 3773063110 ecr 1773474666], length 0
+02:12:19.456930 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [P.], seq 1:49, ack 1, win 502, options [nop,nop,TS val 3773063110 ecr 1773474666], length 48 54463+ PTR? 234.117.117.141.in-addr.arpa. (46)
+02:12:19.457250 IP 67.207.67.2.domain > comp3134-Winter2024.38322: Flags [.], ack 49, win 128, options [nop,nop,TS val 1773474667 ecr 3773063110], length 0
+02:12:19.457334 IP 67.207.67.2.domain > comp3134-Winter2024.38322: Flags [P.], seq 1:116, ack 49, win 128, options [nop,nop,TS val 1773474667 ecr 3773063110], length 115 54463 NXDomain 0/1/0 (113)
+02:12:19.457346 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [.], ack 116, win 502, options [nop,nop,TS val 3773063111 ecr 1773474667], length 0
+02:12:19.459824 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 368:596, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 228
+02:12:19.459985 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 596:844, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 248
+02:12:19.460038 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 844:880, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 36
+02:12:19.460109 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 880:1092, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 212
+02:12:19.460152 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1092:1128, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 36
+02:12:19.460217 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1128:1324, ack 1, win 501, options [nop,nop,TS val 2951799892 ecr 1725818325], length 196
+02:12:19.460259 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1324:1360, ack 1, win 501, options [nop,nop,TS val 2951799893 ecr 1725818325], length 36
+02:12:19.460324 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1360:1556, ack 1, win 501, options [nop,nop,TS val 2951799893 ecr 1725818325], length 196
+02:12:19.460368 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1556:1592, ack 1, win 501, options [nop,nop,TS val 2951799893 ecr 1725818325], length 36
+02:12:19.470840 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 1592, win 19133, options [nop,nop,TS val 1725818438 ecr 2951799893], length 0
+02:12:19.558142 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [P.], seq 49:93, ack 116, win 502, options [nop,nop,TS val 3773063211 ecr 1773474667], length 44 32758+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:12:19.572212 IP 67.207.67.2.domain > comp3134-Winter2024.38322: Flags [P.], seq 116:227, ack 93, win 128, options [nop,nop,TS val 1773474782 ecr 3773063211], length 111 32758 NXDomain 0/1/0 (109)
+02:12:19.572259 IP comp3134-Winter2024.38322 > 67.207.67.2.domain: Flags [.], ack 227, win 502, options [nop,nop,TS val 3773063226 ecr 1773474782], length 0
+02:12:19.579580 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1592:1828, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 236
+02:12:19.579725 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1828:1864, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 36
+02:12:19.579776 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 1864:2100, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 236
+02:12:19.579817 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2100:2136, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 36
+02:12:19.579877 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2136:2324, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 188
+02:12:19.579928 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2324:2360, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 36
+02:12:19.580011 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2360:2612, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 252
+02:12:19.580066 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2612:2648, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 36
+02:12:19.580117 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2648:2844, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 196
+02:12:19.580162 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2844:2880, ack 1, win 501, options [nop,nop,TS val 2951800012 ecr 1725818438], length 36
+02:12:19.580242 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 2880:3116, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 236
+02:12:19.580285 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3116:3152, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 36
+02:12:19.580342 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3152:3348, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 196
+02:12:19.580388 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3348:3384, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 36
+02:12:19.580446 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3384:3596, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 212
+02:12:19.580487 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3596:3632, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 36
+02:12:19.580550 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3632:3844, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 212
+02:12:19.580611 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3844:3880, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 36
+02:12:19.580684 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 3880:4084, ack 1, win 501, options [nop,nop,TS val 2951800013 ecr 1725818438], length 204
+02:12:19.589340 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 4084, win 19113, options [nop,nop,TS val 1725818557 ecr 2951800013], length 0
+02:12:19.589434 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 4084:5840, ack 1, win 501, options [nop,nop,TS val 2951800022 ecr 1725818557], length 1756
+02:12:19.594059 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 5532, win 19129, options [nop,nop,TS val 1725818563 ecr 2951800022], length 0
+02:12:19.596929 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 5840, win 19147, options [nop,nop,TS val 1725818565 ecr 2951800022], length 0
+02:12:19.661563 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 5840:6092, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 252
+02:12:19.661702 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6092:6364, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 272
+02:12:19.661768 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6364:6400, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 36
+02:12:19.661855 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6400:6596, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 196
+02:12:19.661906 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6596:6632, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 36
+02:12:19.661979 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6632:6844, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 212
+02:12:19.662081 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 6844:7092, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 248
+02:12:19.662134 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7092:7128, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 36
+02:12:19.662192 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7128:7340, ack 1, win 501, options [nop,nop,TS val 2951800094 ecr 1725818565], length 212
+02:12:19.662244 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7340:7376, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.662308 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7376:7588, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.662347 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7588:7624, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.662401 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7624:7836, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.662445 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7836:7872, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.662504 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 7872:8084, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.662556 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8084:8120, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.662593 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8120:8332, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.662698 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8332:8580, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 248
+02:12:19.662737 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8580:8616, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.662803 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8616:8828, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.662882 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 8828:9076, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 248
+02:12:19.662956 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9076:9112, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.663007 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9112:9324, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 212
+02:12:19.663043 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9324:9360, ack 1, win 501, options [nop,nop,TS val 2951800095 ecr 1725818565], length 36
+02:12:19.663311 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9360:9572, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 212
+02:12:19.663424 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9572:9820, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 248
+02:12:19.663472 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9820:9856, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 36
+02:12:19.663541 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 9856:10068, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 212
+02:12:19.663628 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 10068:10316, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 248
+02:12:19.663727 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 10316:10600, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 284
+02:12:19.663776 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 10600:10812, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 212
+02:12:19.663831 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 10812:10848, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 36
+02:12:19.663901 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 10848:11060, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 212
+02:12:19.663941 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11060:11096, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 36
+02:12:19.664013 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11096:11308, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 212
+02:12:19.664059 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11308:11344, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 36
+02:12:19.664147 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11344:11540, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 196
+02:12:19.664181 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11540:11576, ack 1, win 501, options [nop,nop,TS val 2951800096 ecr 1725818565], length 36
+02:12:19.697322 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 11576:12288, ack 1, win 501, options [nop,nop,TS val 2951800130 ecr 1725818565], length 712
+02:12:19.738711 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 10848, win 19074, options [nop,nop,TS val 1725818708 ecr 2951800096], length 0
+02:12:19.738805 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 10848, win 19152, options [nop,nop,TS val 1725818708 ecr 2951800096], length 0
+02:12:19.740051 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 12288, win 19130, options [nop,nop,TS val 1725818708 ecr 2951800130], length 0
+02:12:19.765574 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 12288:12500, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 212
+02:12:19.765783 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 12500:12748, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 248
+02:12:19.765962 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 12748:13032, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 284
+02:12:19.766022 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13032:13244, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 212
+02:12:19.766065 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13244:13280, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 36
+02:12:19.766156 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13280:13492, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 212
+02:12:19.766228 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13492:13740, ack 1, win 501, options [nop,nop,TS val 2951800198 ecr 1725818708], length 248
+02:12:19.766281 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13740:13776, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766316 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13776:13988, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766347 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 13988:14024, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766394 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14024:14236, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766427 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14236:14272, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766478 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14272:14484, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766510 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14484:14520, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766610 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14520:14732, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766646 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14732:14768, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766697 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14768:14980, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766747 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 14980:15016, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766829 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15016:15228, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766880 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15228:15264, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.766940 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15264:15476, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.766984 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15476:15512, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.767029 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15512:15724, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 212
+02:12:19.767229 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15724:15760, ack 1, win 501, options [nop,nop,TS val 2951800199 ecr 1725818708], length 36
+02:12:19.767349 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15760:15972, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.767506 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 15972:16468, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 496
+02:12:19.767533 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 16468:16504, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.767585 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 16504:16716, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.767618 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 16716:16752, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.767667 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 16752:16964, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.767701 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 16964:17000, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.767749 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17000:17212, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.767795 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17212:17248, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.767866 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17248:17460, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.767908 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17460:17496, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.767967 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17496:17708, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.768008 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17708:17744, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.768070 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17744:17956, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.768112 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17956:17992, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.768175 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 17992:18204, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 212
+02:12:19.768227 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18204:18240, ack 1, win 501, options [nop,nop,TS val 2951800200 ecr 1725818708], length 36
+02:12:19.768292 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18240:18452, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768336 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18452:18488, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768405 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18488:18700, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768451 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18700:18736, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768513 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18736:18948, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768573 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18948:18984, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768633 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 18984:19196, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768677 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19196:19232, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768738 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19232:19444, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768774 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19444:19480, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768839 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19480:19692, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768874 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19692:19728, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.768923 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19728:19940, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.768963 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19940:19976, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.769012 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 19976:20188, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.769047 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20188:20224, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 36
+02:12:19.769148 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20224:20436, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 212
+02:12:19.769217 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20436:20684, ack 1, win 501, options [nop,nop,TS val 2951800201 ecr 1725818708], length 248
+02:12:19.769282 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20684:20720, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769379 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20720:20932, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 212
+02:12:19.769428 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20932:20968, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769490 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 20968:21180, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 212
+02:12:19.769563 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21180:21428, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 248
+02:12:19.769619 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21428:21464, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769654 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21464:21676, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 212
+02:12:19.769707 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21676:21712, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769771 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21712:21924, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 212
+02:12:19.769813 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21924:21960, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769870 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 21960:22156, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 196
+02:12:19.769912 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22156:22192, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.769965 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22192:22388, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 196
+02:12:19.770004 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22388:22424, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.770055 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22424:22620, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 196
+02:12:19.770101 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22620:22656, ack 1, win 501, options [nop,nop,TS val 2951800202 ecr 1725818708], length 36
+02:12:19.837312 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22620:22656, ack 1, win 501, options [nop,nop,TS val 2951800270 ecr 1725818708], length 36
+02:12:19.869547 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22656:22868, ack 1, win 501, options [nop,nop,TS val 2951800302 ecr 1725818708], length 212
+02:12:19.869714 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 22868:23116, ack 1, win 501, options [nop,nop,TS val 2951800302 ecr 1725818708], length 248
+02:12:19.871656 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 17212, win 19075, options [nop,nop,TS val 1725818841 ecr 2951800200], length 0
+02:12:19.871656 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 21428, win 19009, options [nop,nop,TS val 1725818841 ecr 2951800202], length 0
+02:12:19.871656 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 22656, win 18990, options [nop,nop,TS val 1725818841 ecr 2951800202], length 0
+02:12:19.871656 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 22656, win 18990, options [nop,nop,TS val 1725818841 ecr 2951800270,nop,nop,sack 1 {22620:22656}], length 0
+02:12:19.871755 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 23116:27460, ack 1, win 501, options [nop,nop,TS val 2951800304 ecr 1725818841], length 4344
+02:12:19.871776 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 27460:30596, ack 1, win 501, options [nop,nop,TS val 2951800304 ecr 1725818841], length 3136
+02:12:19.872140 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 30596:32928, ack 1, win 501, options [nop,nop,TS val 2951800304 ecr 1725818841], length 2332
+02:12:19.872272 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 32928:33844, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 916
+02:12:19.872349 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 33844:34232, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 388
+02:12:19.872424 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 34232:34620, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 388
+02:12:19.872568 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 34620:35220, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 600
+02:12:19.872671 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 35220:35608, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 388
+02:12:19.872794 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 35608:36172, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 564
+02:12:19.872891 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 36172:36560, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 388
+02:12:19.873001 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 36560:36948, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 388
+02:12:19.873085 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 36948:37160, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 212
+02:12:19.873210 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 37160:37900, ack 1, win 501, options [nop,nop,TS val 2951800305 ecr 1725818841], length 740
+02:12:19.873366 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 37900:38648, ack 1, win 501, options [nop,nop,TS val 2951800306 ecr 1725818841], length 748
+02:12:19.875035 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 23116, win 18983, options [nop,nop,TS val 1725818842 ecr 2951800302], length 0
+02:12:19.876453 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 26012, win 18938, options [nop,nop,TS val 1725818845 ecr 2951800304], length 0
+02:12:19.876982 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 38648, win 18740, options [nop,nop,TS val 1725818846 ecr 2951800306], length 0
+02:12:19.905877 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 38648, win 19152, options [nop,nop,TS val 1725818850 ecr 2951800306], length 0
+02:12:19.973529 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 38648:38860, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 212
+02:12:19.973702 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 38860:39760, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 900
+02:12:19.973805 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 39760:40156, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 396
+02:12:19.973895 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 40156:40720, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 564
+02:12:19.973985 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 40720:41292, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 572
+02:12:19.974057 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 41292:41680, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 388
+02:12:19.974129 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 41680:42068, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 388
+02:12:19.974199 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 42068:42456, ack 1, win 501, options [nop,nop,TS val 2951800406 ecr 1725818850], length 388
+02:12:19.974270 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 42456:42820, ack 1, win 501, options [nop,nop,TS val 2951800407 ecr 1725818850], length 364
+02:12:19.974342 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 42820:43184, ack 1, win 501, options [nop,nop,TS val 2951800407 ecr 1725818850], length 364
+02:12:19.984196 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 43184, win 19081, options [nop,nop,TS val 1725818951 ecr 2951800407], length 0
+02:12:19.984196 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 43184, win 19152, options [nop,nop,TS val 1725818951 ecr 2951800407], length 0
+02:12:20.077483 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 43184:43396, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 212
+02:12:20.077602 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 43396:43784, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 388
+02:12:20.077678 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 43784:44172, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 388
+02:12:20.077769 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 44172:44744, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 572
+02:12:20.077840 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 44744:45140, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 396
+02:12:20.077904 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 45140:45504, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 364
+02:12:20.077942 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 45504:45540, ack 1, win 501, options [nop,nop,TS val 2951800510 ecr 1725818951], length 36
+02:12:20.088335 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 45540, win 19152, options [nop,nop,TS val 1725819055 ecr 2951800510], length 0
+02:12:20.181651 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 45540:45752, ack 1, win 501, options [nop,nop,TS val 2951800614 ecr 1725819055], length 212
+02:12:20.181788 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 45752:46140, ack 1, win 501, options [nop,nop,TS val 2951800614 ecr 1725819055], length 388
+02:12:20.181891 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 46140:46712, ack 1, win 501, options [nop,nop,TS val 2951800614 ecr 1725819055], length 572
+02:12:20.181984 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 46712:47092, ack 1, win 501, options [nop,nop,TS val 2951800614 ecr 1725819055], length 380
+02:12:20.187399 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 47092, win 19152, options [nop,nop,TS val 1725819157 ecr 2951800614], length 0
+02:12:20.285499 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 47092:47304, ack 1, win 501, options [nop,nop,TS val 2951800718 ecr 1725819157], length 212
+02:12:20.285623 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 47304:47516, ack 1, win 501, options [nop,nop,TS val 2951800718 ecr 1725819157], length 212
+02:12:20.285704 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 47516:47904, ack 1, win 501, options [nop,nop,TS val 2951800718 ecr 1725819157], length 388
+02:12:20.285784 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 47904:48108, ack 1, win 501, options [nop,nop,TS val 2951800718 ecr 1725819157], length 204
+02:12:20.353305 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 47904:48108, ack 1, win 501, options [nop,nop,TS val 2951800786 ecr 1725819157], length 204
+02:12:20.389571 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 48108:48320, ack 1, win 501, options [nop,nop,TS val 2951800822 ecr 1725819157], length 212
+02:12:20.389885 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 48320:48708, ack 1, win 501, options [nop,nop,TS val 2951800822 ecr 1725819157], length 388
+02:12:20.389997 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 48708:49104, ack 1, win 501, options [nop,nop,TS val 2951800822 ecr 1725819157], length 396
+02:12:20.400223 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 49104, win 19121, options [nop,nop,TS val 1725819367 ecr 2951800718,nop,nop,sack 1 {47904:48108}], length 0
+02:12:20.493549 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 49104:49316, ack 1, win 501, options [nop,nop,TS val 2951800926 ecr 1725819367], length 212
+02:12:20.493710 IP comp3134-Winter2024.ssh > 141.117.117.234.13056: Flags [P.], seq 49316:49904, ack 1, win 501, options [nop,nop,TS val 2951800926 ecr 1725819367], length 588
+02:12:20.501488 IP 141.117.117.234.13056 > comp3134-Winter2024.ssh: Flags [.], ack 49904, win 19140, options [nop,nop,TS val 1725819468 ecr 2951800926], length 0
+^Z
+[9]+  Stopped                 tcpdump -i eth0 tcp
